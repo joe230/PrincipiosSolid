@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleResponsability\Correcto\Coche.cs" />
+    <Compile Include="SingleResponsability\Correcto\CocheDB.cs" />
+    <Compile Include="SingleResponsability\Incorrecto\Coche.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
