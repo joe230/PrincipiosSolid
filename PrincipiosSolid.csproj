@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InterfaceSegregation\Correcto\IAve.cs" />
+    <Compile Include="InterfaceSegregation\Incorrecto\IAve.cs" />
     <Compile Include="LiskovSubstitution\Incorrecto\Coche.cs" />
     <Compile Include="OpenClosed\Correcto\Coche.cs" />
     <Compile Include="OpenClosed\Incorrecto\Coche.cs" />
