@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LiskovSubstitution\Incorrecto\Coche.cs" />
+    <Compile Include="OpenClosed\Correcto\Coche.cs" />
+    <Compile Include="OpenClosed\Incorrecto\Coche.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleResponsability\Correcto\Coche.cs" />
@@ -51,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LiskovSubstitution\Correcto\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
